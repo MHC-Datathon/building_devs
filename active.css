@@ -386,10 +386,32 @@ body {
         padding-bottom: 4%;
     }
 
-    div.credit-text {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+    section.credit-text {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        /* *{border: 5px solid black;} */
+
+        div.credit-text-container {
+            width: 100%;
+            height: auto;
+
+            display: flex;
+            justify-content: center;
+
+            a {
+                text-align: center;
+                color: rgb(165, 219, 255);
+;
+                width: 50%;
+                height: auto;
+            }
+
+            a:hover {
+                color: rgb(221, 230, 237);
+            }
+        }
     }
 
 }
