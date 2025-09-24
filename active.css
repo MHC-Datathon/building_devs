@@ -369,6 +369,11 @@ body {
                     aspect-ratio: 2/1;
                 }
             }
+
+            img {
+                width: 100%;
+                height: auto;
+            }
             
         }
 
@@ -412,6 +417,14 @@ body {
         }
     }
 
+    div.row-four-blurb {
+        width: 75%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+
+        display: flex;
+        justify-content: center;
+    }
 
     section.credit-text {
         width: 100%;
