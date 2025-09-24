@@ -150,6 +150,11 @@
     color: rgb(162, 207, 242);
 }   
 
+.asterick-text {
+    font-size: .5em;
+    font-weight: bold;
+}
+
 .margin-center {
     margin-left: auto;
     margin-right: auto;
@@ -358,7 +363,7 @@ body {
         }
 
         div.six-right {
-            width: 65%;
+            width: 40%;
             height: auto;
 
             div.iframe-container {
