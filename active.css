@@ -354,8 +354,21 @@ body {
             h3, p { margin-top: 0;}
         }
 
+        /* div.eight-right {
+            margin-top: auto;
+            margin-bottom: auto;
+        } */
+
         div.six-left {
             width: 35%;
+            height: auto;
+
+            text-align: left;
+            h3, p { margin-top: 0;}
+        }
+
+        div.six-three {
+            width: 87.5%;
             height: auto;
 
             text-align: left;
@@ -383,7 +396,7 @@ body {
         }
 
         div.eight-left, div.ten-right {
-            width: 50%;
+            width: 35%;
             height: auto;
 
             img {
@@ -429,6 +442,12 @@ body {
 
         display: flex;
         justify-content: center;
+    }
+
+    div.row-six-bottom {
+        width: 75%;
+
+
     }
 
     section.credit-text {
