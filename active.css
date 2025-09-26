@@ -187,6 +187,7 @@ h1 {
     font-family: Merriweather, Ubuntu, sans-serif;
 
     color: rgb(165, 219, 255);
+    padding-bottom: 3.5%;
 }   
 
 h2 {
@@ -313,6 +314,10 @@ body {
             div.circles {
                 min-height: 5vh
             }
+
+            /* div.one-right-project {
+                 padding-bottom: 2.5%;
+            } */
             
         }
 
